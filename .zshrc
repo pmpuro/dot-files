@@ -14,6 +14,7 @@ source /opt/homebrew/share/powerlevel10k/powerlevel10k.zsh-theme
 alias ll="ls -la"
 alias pd="pushd"
 alias ppd="popd"
+alias gitl="git log --pretty=oneline"
 
 
 export PATH=$PATH:$HOME/bin
