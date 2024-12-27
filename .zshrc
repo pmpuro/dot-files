@@ -16,8 +16,11 @@ alias pd="pushd"
 alias ppd="popd"
 alias gitl="git log --pretty=oneline"
 
-
 export PATH=$PATH:$HOME/bin
+export ZSH="$HOME/.oh-my-zsh"
 
+plugins=()
+
+source $ZSH/oh-my-zsh.sh
 
 
